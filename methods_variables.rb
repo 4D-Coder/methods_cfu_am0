@@ -2,17 +2,19 @@
 # PART 1
 
 # Define a variable that stores a string
+player_name = "Noctis Rimor"
 
 #  call upcase on the variable, print it out
+puts player_name.upcase
+
 #  call downcase on the variable, print it out
+puts player_name.downcase
+
 #  call reverse on the variable, print it out
+puts player_name.reverse
+
 #  call length on the variable, print it out
-
-
-
-
-
-
+puts player_name.length
 
 # =================================
 # PART 2
