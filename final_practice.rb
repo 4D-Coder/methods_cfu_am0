@@ -39,13 +39,16 @@ puts square(4)
 # Integer
 
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
-
+def greet_person(first, middle, last)
+    "Hello #{first} #{middle} #{last}, enjoy your stay!"
+end
 
 # What is the return value of your method?
+puts greet_person("Antonio", "Ulric", "King Hunt") # => Hello Antonio Ulric King Hunt, enjoy your stay!
 
 # How many arguments did you pass your method?
-#
+# Three arguments
 
 # What data type was your argument(s)?
-
+# All 3 arguments were strings
 
