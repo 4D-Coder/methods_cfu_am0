@@ -25,21 +25,27 @@ puts custom_greeting("Jessica") # => "Hello Jessica, how are you today?"
 # A String
 
 #3: Write a method named square that takes in one number, and returns the square of that number
+def square(num)
+    num ** 2
+end
 
-
+puts square(4)
 
 # What is the return value of your method?
+# 16
 # How many arguments did you pass your method?
+# One argument
 # What data type was your argument(s)?
-
-
-
+# Integer
 
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
 
 
-
 # What is the return value of your method?
+
 # How many arguments did you pass your method?
+#
+
 # What data type was your argument(s)?
+
 
